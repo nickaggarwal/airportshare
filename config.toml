@@ -1,0 +1,37 @@
+baseurl = "https://www.airportshare.tech/"
+languageCode = "en"
+title = "Airport Sahre"
+theme = "vex-hugo"
+
+[params]
+  description = ""
+
+  # Put your custom stylesheets and scripts
+  custom_stylesheets = []
+  custom_scripts = []
+
+  # Additional meta
+  [[params.meta]]
+    name = ""
+    description = ""
+
+  # Navigation bar informations
+  [params.navbar]
+    logo = "AIRPORT"
+    [[params.navbar.menu]]
+      link = "#"
+      text = "HOME"
+
+  # Header
+  [params.header]
+    title = "Believe in Sharing, Save the Earth"
+    text = "Going the Bangalore Airport to City can be a big hassle. Save cost by making "
+    [params.header.image]
+      path = "images/watch.png"
+      alt = "Watch"
+    [params.header.button]
+      link = "#"
+      text = "Download The App"
+
+
+  # Footer uses navbar data
